@@ -1,0 +1,65 @@
+* {
+    font-family:'Roboto', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Verdana', 'sans-serif';
+   
+}
+
+body {
+    background-image: url(background.avif);
+    background-position: fixed;
+    float: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-container {
+    text-align: center;
+    height: 500px;
+    margin-top: 150px;
+}
+
+.main-container {
+    grid-template-columns: 1fr 1fr;
+    height: -60px;
+    margin-top: -450px;
+    margin-bottom: 0px;
+    backdrop-filter: blur(80);
+    text-align: center;
+}
+
+.login-container {
+    color: rgb(247, 240, 240);
+    text-align: center;
+    display: grid;
+    width: 300px;
+    margin: auto;
+    backdrop-filter: blur(80);
+    box-shadow: 0 5px 10px #000;
+}
+
+.btn-color {
+    width: 100px;
+    font-size:medium;
+    background-color: rgba(5, 198, 241, 0.884);
+}
+
+.creat-color {
+    color: rgb(185, 255, 220);
+    font-size: 15px ;
+}
+
+.login-container input, .login-container button {
+    margin: 5px 60px;
+    padding: 4px;
+}
+
+.small-text {
+    color: rgb(0, 183, 255);
+    font-size: 15px;
+}
+
+.more {
+    color: rgb(223, 215, 215);
+    font-size: 15px;
+    margin-bottom: -20px;
+    margin-left: 550px;
+}
